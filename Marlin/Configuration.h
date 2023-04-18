@@ -1541,7 +1541,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -42, -12.7, -2.600 }
+#define NOZZLE_TO_PROBE_OFFSET { -42, -12.7, -2.000 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
@@ -2190,7 +2190,7 @@
    *  |  1       2  |   | 1         4 |    | 1         2 |   | 2           |
    *  LF --------- RF   LF --------- RF    LF --------- RF   LF --------- RF
    */
-  #define BED_TRAMMING_LEVELING_ORDER { LF,RB,LB,RF }
+  #define BED_TRAMMING_LEVELING_ORDER { LB,RF,RB,LF }
 #endif
 
 /**
